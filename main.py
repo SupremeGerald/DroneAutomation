@@ -18,6 +18,7 @@ if False:
             for j in range(samples):
                 color_data = drone.get_color_data()[0:9]
                 data.append(color_data)
+                time.sleep(.05)
                 if j % 10 == 0:
                     print("-", end="")
             print(" 100%")
