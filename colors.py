@@ -1,0 +1,3 @@
+color_dictionary = {
+    "red"
+}
